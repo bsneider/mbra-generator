@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dmz>
+  <archive-version version="0"/>
+  <archive>
+    <object type="ft_clip_board" uuid="d778c9ed-7d25-4f5f-b11c-7f848b03e7f5"/>
+    <object type="na_simulator" uuid="e871a27d-952a-436d-9f49-5ed4e381353b"/>
+    <object type="root_layer" uuid="6c122750-bd5c-42b4-becd-1c1551c97a07">
+      <attributes name="Layer_Order">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="layer" uuid="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e">
+      <attributes name="Layer_Name">
+        <text value="Network-0"/>
+      </attributes>
+      <attributes name="Layer_Visible">
+        <flag value="true"/>
+      </attributes>
+      <attributes name="Layer_Locked">
+        <flag value="false"/>
+      </attributes>
+      <attributes name="Layer_Active">
+        <flag value="true"/>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="54cfd5c1-dcc1-452c-a624-f1be58e0c30b">
+      <attributes>
+        <position x="-96.0481" y="0.000000" z="28.795"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="South Texas Project"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 2708.6 Fuel type Nuclear"/>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="9f711a84-dcda-43a2-8648-bb40b55cd784">
+      <attributes>
+        <position x="-98.3203" y="0.000000" z="29.309722"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="J K Spruce"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 1444.0 Fuel type Coal"/>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="740bc7c0-b282-49cb-8570-89434d7b7794"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="740bc7c0-b282-49cb-8570-89434d7b7794">
+      <attributes>
+        <position x="-97.1842" y="0.000000" z="29.052361"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="J K Spruce_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+  </archive>
+  <active-channel-list>
+    <channel name="NetworkAnalysisChannel"/>
+  </active-channel-list>
+  <NAMapArchive>
+    <mapControl>
+      <center x="-97.733330" y="30.266666"/>
+      <zoom value="7"/>
+    </mapControl>
+  </NAMapArchive>
+  <dmzQtPluginMapProperties>
+    <show-map value="true"/>
+    <map-adapter name="OpenStreetMap" type="tile" server="tile.openstreetmap.org" path="/%1/%2/%3.png" tileSize="256" minZoom="0" maxZoom="17"/>
+  </dmzQtPluginMapProperties>
+</dmz>
