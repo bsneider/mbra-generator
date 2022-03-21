@@ -3,7 +3,7 @@
   <archive-version version="0"/>
   <archive>
     <object type="ft_clip_board" uuid="d778c9ed-7d25-4f5f-b11c-7f848b03e7f5"/>
-    <object type="na_simulator" uuid="e871a27d-952a-436d-9f49-5ed4e381353b"/>
+    <object type="na_simulator" uuid="1b526352-16bf-6f48-ae94-c34262cc4365"/>
     <object type="root_layer" uuid="6c122750-bd5c-42b4-becd-1c1551c97a07">
       <attributes name="Layer_Order">
         <links>
@@ -25,7 +25,112 @@
         <flag value="true"/>
       </attributes>
     </object>
-    <object type="na_node" uuid="54cfd5c1-dcc1-452c-a624-f1be58e0c30b">
+    <object type="na_node" uuid="ffdcbcca-2b3f-a661-831c-58f76ca01b5e">
+      <attributes>
+        <position x="-95.6306" y="0.000000" z="29.4833"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="W A Parish Coal"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 4008.4 Fuel type Coal"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="e4ae5dfb-98ee-4d73-a0b9-c6caeeeb4e4e"/>
+          <object name="d27e9a32-3cf3-5c46-8078-48b62ca70969" attribute="32ef8843-1e1e-48e1-8c44-58a504e5a143"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="e4ae5dfb-98ee-4d73-a0b9-c6caeeeb4e4e">
+      <attributes>
+        <position x="-95.83935" y="0.000000" z="29.13915"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="W A Parish Coal_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="32ef8843-1e1e-48e1-8c44-58a504e5a143">
+      <attributes>
+        <position x="-96.97545" y="0.000000" z="29.396511"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="W A Parish Coal_link_1"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="55c31c95-4877-1a33-9921-234712449cce">
       <attributes>
         <position x="-96.0481" y="0.000000" z="28.795"/>
       </attributes>
@@ -50,8 +155,1623 @@
       <attributes name="NA_Node_Description">
         <text value="Capacity (MW) 2708.6 Fuel type Nuclear"/>
       </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
     </object>
-    <object type="na_node" uuid="9f711a84-dcda-43a2-8648-bb40b55cd784">
+    <object type="na_node" uuid="f82dc792-87b3-1390-7006-244ecf9293c6">
+      <attributes>
+        <position x="-97.78552" y="0.000000" z="32.298365"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Comanche Peak"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 2430.0 Fuel type Nuclear"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="000c1d92-04ce-442c-6371-67b78e19480e" attribute="9a37eae9-e281-40fa-a847-c59d5533e3b0"/>
+          <object name="8167cc53-72f4-6e73-64b5-57ba5687a2ad" attribute="71428dd6-a4d9-4c07-b8d3-9588afd375ee"/>
+          <object name="4dd236be-09c2-03ed-06e2-505b0de06b4d" attribute="a9538496-1801-48d9-b123-583b765c70c2"/>
+          <object name="d27e9a32-3cf3-5c46-8078-48b62ca70969" attribute="a8634a0e-c31f-4619-b81a-e8f69ec77f46"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="9a37eae9-e281-40fa-a847-c59d5533e3b0">
+      <attributes>
+        <position x="-97.01901000000001" y="0.000000" z="31.8601325"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Comanche Peak_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="71428dd6-a4d9-4c07-b8d3-9588afd375ee">
+      <attributes>
+        <position x="-97.13606" y="0.000000" z="31.739332499999996"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Comanche Peak_link_1"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="a9538496-1801-48d9-b123-583b765c70c2">
+      <attributes>
+        <position x="-97.55137" y="0.000000" z="31.677099"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Comanche Peak_link_2"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="a8634a0e-c31f-4619-b81a-e8f69ec77f46">
+      <attributes>
+        <position x="-98.05291" y="0.000000" z="30.8040435"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Comanche Peak_link_3"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="723d89bd-19ba-0e69-32d0-794d6b547ab4">
+      <attributes>
+        <position x="-94.5706" y="0.000000" z="32.2606"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Martin Lake"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 2379.6 Fuel type Coal"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="000c1d92-04ce-442c-6371-67b78e19480e" attribute="6de3d783-09fc-44c2-bf15-c9b670edc96e"/>
+          <object name="8167cc53-72f4-6e73-64b5-57ba5687a2ad" attribute="406d4347-97c5-471f-ba88-10c82bed58dd"/>
+          <object name="ec76a4d2-37e5-a696-03ce-4808e2d96051" attribute="39900c39-8834-4926-a33a-b059aaa70023"/>
+          <object name="6ed1f42d-17cf-8732-6dd2-2443dc4343bf" attribute="b2a9d489-5362-40f9-93a4-5877cffd5207"/>
+          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="0797ded5-424d-4d32-9afc-b009549fb5ef"/>
+          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="e922800d-4c8d-4e0e-8a48-c3c1bc0d81a9"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="6de3d783-09fc-44c2-bf15-c9b670edc96e">
+      <attributes>
+        <position x="-95.41155" y="0.000000" z="31.84125"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Martin Lake_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="406d4347-97c5-471f-ba88-10c82bed58dd">
+      <attributes>
+        <position x="-95.5286" y="0.000000" z="31.72045"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Martin Lake_link_1"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="39900c39-8834-4926-a33a-b059aaa70023">
+      <attributes>
+        <position x="-94.15295" y="0.000000" z="31.2597"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Martin Lake_link_2"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="b2a9d489-5362-40f9-93a4-5877cffd5207">
+      <attributes>
+        <position x="-94.2243" y="0.000000" z="31.1424"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Martin Lake_link_3"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="0797ded5-424d-4d32-9afc-b009549fb5ef">
+      <attributes>
+        <position x="-94.7481" y="0.000000" z="31.0053"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Martin Lake_link_4"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="e922800d-4c8d-4e0e-8a48-c3c1bc0d81a9">
+      <attributes>
+        <position x="-95.1006" y="0.000000" z="30.87195"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Martin Lake_link_5"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="c3c7932c-881d-4bd9-9b24-063329d15a01">
+      <attributes>
+        <position x="-95.0417" y="0.000000" z="33.0917"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Monticello"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 1980.0 Fuel type Coal"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="927df553-1dfd-a7b5-5f17-e7439e6f0eef" attribute="3e0b194d-a26b-41b5-9b00-d9ded7e60f14"/>
+          <object name="723d89bd-19ba-0e69-32d0-794d6b547ab4" attribute="e3ae5525-a69c-4249-ae19-db3c97b27fa7"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="3e0b194d-a26b-41b5-9b00-d9ded7e60f14">
+      <attributes>
+        <position x="-95.76665" y="0.000000" z="32.92400000000001"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Monticello_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="e3ae5525-a69c-4249-ae19-db3c97b27fa7">
+      <attributes>
+        <position x="-94.80615" y="0.000000" z="32.67615"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Monticello_link_1"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="927df553-1dfd-a7b5-5f17-e7439e6f0eef">
+      <attributes>
+        <position x="-96.4916" y="0.000000" z="32.7563"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Forney Energy Center"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 1850.8 Fuel type Gas"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="723d89bd-19ba-0e69-32d0-794d6b547ab4" attribute="366f53d2-2bbb-463a-945e-0764f69b5112"/>
+          <object name="56b963d6-5354-0b78-3c2a-8c4a449d2f23" attribute="5c7ebe29-c94d-4742-aef8-2ece744ff89f"/>
+          <object name="000c1d92-04ce-442c-6371-67b78e19480e" attribute="b502e479-0dc0-4ac6-a297-9b973ef7bfe4"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="366f53d2-2bbb-463a-945e-0764f69b5112">
+      <attributes>
+        <position x="-95.53110000000001" y="0.000000" z="32.508449999999996"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Forney Energy Center_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="5c7ebe29-c94d-4742-aef8-2ece744ff89f">
+      <attributes>
+        <position x="-96.77265" y="0.000000" z="32.59325"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Forney Energy Center_link_1"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="b502e479-0dc0-4ac6-a297-9b973ef7bfe4">
+      <attributes>
+        <position x="-96.37205" y="0.000000" z="32.0891"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Forney Energy Center_link_2"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="000c1d92-04ce-442c-6371-67b78e19480e">
+      <attributes>
+        <position x="-96.2525" y="0.000000" z="31.4219"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Limestone"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 1849.8 Fuel type Coal"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="8167cc53-72f4-6e73-64b5-57ba5687a2ad" attribute="68f683ab-9d78-4279-a804-414b7a7ded55"/>
+          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="78d14d6c-8efc-4eef-8e15-19e70e8b56b9"/>
+          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="29a47c0c-6a86-4a7c-a107-6625eb756289"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="68f683ab-9d78-4279-a804-414b7a7ded55">
+      <attributes>
+        <position x="-96.36955" y="0.000000" z="31.301099999999998"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Limestone_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="78d14d6c-8efc-4eef-8e15-19e70e8b56b9">
+      <attributes>
+        <position x="-95.58905" y="0.000000" z="30.58595"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Limestone_link_1"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="29a47c0c-6a86-4a7c-a107-6625eb756289">
+      <attributes>
+        <position x="-95.94155" y="0.000000" z="30.4526"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Limestone_link_2"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="6ed1f42d-17cf-8732-6dd2-2443dc4343bf">
+      <attributes>
+        <position x="-93.878" y="0.000000" z="30.0242"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Sabine"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 1811.8 Fuel type Gas"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="81e5ebb6-579a-452d-97bd-f4fe72bd3abe"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="81e5ebb6-579a-452d-97bd-f4fe72bd3abe">
+      <attributes>
+        <position x="-94.40180000000001" y="0.000000" z="29.8871"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Sabine_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="8167cc53-72f4-6e73-64b5-57ba5687a2ad">
+      <attributes>
+        <position x="-96.4866" y="0.000000" z="31.1803"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Oak Grove (TX)"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 1795.4 Fuel type Coal"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="4dd236be-09c2-03ed-06e2-505b0de06b4d" attribute="a9c58a9c-36c1-489a-b4bd-841feed90600"/>
+          <object name="cec6003a-9fcc-09b4-6396-6f0e81f833d8" attribute="9fb5ad82-1099-4d8e-9b07-64131f601237"/>
+          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="e12a98ee-61fb-4eb0-b471-727f8d24b920"/>
+          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="760c28b0-7e37-4b46-adc5-7813d494e61c"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="a9c58a9c-36c1-489a-b4bd-841feed90600">
+      <attributes>
+        <position x="-96.90191" y="0.000000" z="31.118066499999998"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Oak Grove (TX)_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="9fb5ad82-1099-4d8e-9b07-64131f601237">
+      <attributes>
+        <position x="-96.6186" y="0.000000" z="30.54875"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Oak Grove (TX)_link_1"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="e12a98ee-61fb-4eb0-b471-727f8d24b920">
+      <attributes>
+        <position x="-95.70609999999999" y="0.000000" z="30.46515"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Oak Grove (TX)_link_2"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="760c28b0-7e37-4b46-adc5-7813d494e61c">
+      <attributes>
+        <position x="-96.0586" y="0.000000" z="30.3318"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Oak Grove (TX)_link_3"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="56b963d6-5354-0b78-3c2a-8c4a449d2f23">
+      <attributes>
+        <position x="-97.0537" y="0.000000" z="32.4302"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Midlothian Energy Facility"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 1734.0 Fuel type Gas"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="f82dc792-87b3-1390-7006-244ecf9293c6" attribute="c4f1e19d-74be-458a-bdb7-a10ceb795bd5"/>
+          <object name="723d89bd-19ba-0e69-32d0-794d6b547ab4" attribute="177d8da8-ac22-40e1-b59a-587e1c7969d6"/>
+          <object name="000c1d92-04ce-442c-6371-67b78e19480e" attribute="d9ae0224-b073-42df-b442-9ec969e3a3e5"/>
+          <object name="8167cc53-72f4-6e73-64b5-57ba5687a2ad" attribute="81859ab9-9e8d-453e-98ae-ac6d4d5e4873"/>
+          <object name="4dd236be-09c2-03ed-06e2-505b0de06b4d" attribute="b9fb6186-0102-4932-941e-856b39e0bb30"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="c4f1e19d-74be-458a-bdb7-a10ceb795bd5">
+      <attributes>
+        <position x="-97.41961" y="0.000000" z="32.3642825"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Midlothian Energy Facility_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="177d8da8-ac22-40e1-b59a-587e1c7969d6">
+      <attributes>
+        <position x="-95.81215" y="0.000000" z="32.3454"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Midlothian Energy Facility_link_1"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="d9ae0224-b073-42df-b442-9ec969e3a3e5">
+      <attributes>
+        <position x="-96.6531" y="0.000000" z="31.92605"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Midlothian Energy Facility_link_2"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="81859ab9-9e8d-453e-98ae-ac6d4d5e4873">
+      <attributes>
+        <position x="-96.77015" y="0.000000" z="31.80525"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Midlothian Energy Facility_link_3"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="b9fb6186-0102-4932-941e-856b39e0bb30">
+      <attributes>
+        <position x="-97.18546" y="0.000000" z="31.7430165"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Midlothian Energy Facility_link_4"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="cec6003a-9fcc-09b4-6396-6f0e81f833d8">
+      <attributes>
+        <position x="-96.7506" y="0.000000" z="29.9172"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Fayette Power Project"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 1690.0 Fuel type Coal"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="d27e9a32-3cf3-5c46-8078-48b62ca70969" attribute="fc32a23b-ded0-4619-9f7d-3192fb67a9dc"/>
+          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="3c1123e2-7d26-4695-9cf0-0964f22b2ace"/>
+          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="b7ad6be1-5adc-4e2f-8133-fb6c7714e2e8"/>
+          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="aee1c70c-463f-4c63-a300-8c9905775d77"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="fc32a23b-ded0-4619-9f7d-3192fb67a9dc">
+      <attributes>
+        <position x="-97.53545" y="0.000000" z="29.613461"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Fayette Power Project_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="3c1123e2-7d26-4695-9cf0-0964f22b2ace">
+      <attributes>
+        <position x="-95.8381" y="0.000000" z="29.8336"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Fayette Power Project_link_1"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="b7ad6be1-5adc-4e2f-8133-fb6c7714e2e8">
+      <attributes>
+        <position x="-96.1906" y="0.000000" z="29.70025"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Fayette Power Project_link_2"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="aee1c70c-463f-4c63-a300-8c9905775d77">
+      <attributes>
+        <position x="-96.39935" y="0.000000" z="29.3561"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Fayette Power Project_link_3"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="4dd236be-09c2-03ed-06e2-505b0de06b4d">
+      <attributes>
+        <position x="-97.31722" y="0.000000" z="31.055833"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Panda Temple Power Station"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 1606.4 Fuel type Gas"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="d27e9a32-3cf3-5c46-8078-48b62ca70969" attribute="2422836f-0020-40f2-a1cb-95dbe6a2ecba"/>
+          <object name="cec6003a-9fcc-09b4-6396-6f0e81f833d8" attribute="a1d98f8d-74e6-4abd-b895-052a2f345c08"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="2422836f-0020-40f2-a1cb-95dbe6a2ecba">
+      <attributes>
+        <position x="-97.81876" y="0.000000" z="30.1827775"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Panda Temple Power Station_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="a1d98f8d-74e6-4abd-b895-052a2f345c08">
+      <attributes>
+        <position x="-97.03391" y="0.000000" z="30.4865165"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Panda Temple Power Station_link_1"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="3ca275af-5a47-90e2-0124-578c6c581877">
+      <attributes>
+        <position x="-94.9256" y="0.000000" z="29.75"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Cedar Bayou"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 1530.0 Fuel type Gas"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="f6c86d0d-a6a7-45db-bfb8-2f96b2ee5906"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="f6c86d0d-a6a7-45db-bfb8-2f96b2ee5906">
+      <attributes>
+        <position x="-95.2781" y="0.000000" z="29.61665"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Cedar Bayou_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="d27e9a32-3cf3-5c46-8078-48b62ca70969">
       <attributes>
         <position x="-98.3203" y="0.000000" z="29.309722"/>
       </attributes>
@@ -76,13 +1796,18 @@
       <attributes name="NA_Node_Description">
         <text value="Capacity (MW) 1444.0 Fuel type Coal"/>
       </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="740bc7c0-b282-49cb-8570-89434d7b7794"/>
+          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="0ec7cb2c-c3b9-4b08-92d7-05ad8f377435"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="740bc7c0-b282-49cb-8570-89434d7b7794">
+    <object type="na_link_attribute" uuid="0ec7cb2c-c3b9-4b08-92d7-05ad8f377435">
       <attributes>
         <position x="-97.1842" y="0.000000" z="29.052361"/>
       </attributes>
@@ -91,6 +1816,461 @@
       </attributes>
       <attributes name="NA_Node_Name">
         <text value="J K Spruce_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="ec76a4d2-37e5-a696-03ce-4808e2d96051">
+      <attributes>
+        <position x="-93.7353" y="0.000000" z="30.2588"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Cottonwood Energy Project"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 1433.6 Fuel type Gas"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="6ed1f42d-17cf-8732-6dd2-2443dc4343bf" attribute="87210d38-b804-499d-92ee-fbef14d897b9"/>
+          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="1bfab6dc-b9ae-4cc3-8933-2669911e0c0b"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="87210d38-b804-499d-92ee-fbef14d897b9">
+      <attributes>
+        <position x="-93.80664999999999" y="0.000000" z="30.1415"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Cottonwood Energy Project_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="1bfab6dc-b9ae-4cc3-8933-2669911e0c0b">
+      <attributes>
+        <position x="-94.33045" y="0.000000" z="30.0044"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Cottonwood Energy Project_link_1"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="98e9ad32-4cbe-6292-25a6-d33fd188429f">
+      <attributes>
+        <position x="-97.2192" y="0.000000" z="32.7283"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Handley"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 1314.8 Fuel type Gas"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="f82dc792-87b3-1390-7006-244ecf9293c6" attribute="fe86a0c1-55b2-4f99-a1c4-c5a7f3619f55"/>
+          <object name="56b963d6-5354-0b78-3c2a-8c4a449d2f23" attribute="9b8824a4-7326-48c5-842b-b6ced413eb74"/>
+          <object name="927df553-1dfd-a7b5-5f17-e7439e6f0eef" attribute="0c62a4f8-fa20-49ee-b5b3-e3697a526105"/>
+          <object name="c3c7932c-881d-4bd9-9b24-063329d15a01" attribute="ffa38f24-1c8c-4edc-a37b-d88dc400248d"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="fe86a0c1-55b2-4f99-a1c4-c5a7f3619f55">
+      <attributes>
+        <position x="-97.50236000000001" y="0.000000" z="32.5133325"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Handley_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="9b8824a4-7326-48c5-842b-b6ced413eb74">
+      <attributes>
+        <position x="-97.13645" y="0.000000" z="32.57925"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Handley_link_1"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="0c62a4f8-fa20-49ee-b5b3-e3697a526105">
+      <attributes>
+        <position x="-96.8554" y="0.000000" z="32.7423"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Handley_link_2"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="ffa38f24-1c8c-4edc-a37b-d88dc400248d">
+      <attributes>
+        <position x="-96.13045" y="0.000000" z="32.91"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Handley_link_3"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_node" uuid="5e9b40ce-a7b8-3baf-693a-37e16a2c822c">
+      <attributes>
+        <position x="-97.9574" y="0.000000" z="33.101"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Jack County"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value="Capacity (MW) 1280.0 Fuel type Gas"/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+      <attributes name="Node_Link">
+        <links>
+          <object name="98e9ad32-4cbe-6292-25a6-d33fd188429f" attribute="b712647f-560f-4dc3-9256-226fd4fcd0d4"/>
+          <object name="f82dc792-87b3-1390-7006-244ecf9293c6" attribute="3fdb414c-9cac-4d0b-b327-8aaeda47ebb1"/>
+          <object name="56b963d6-5354-0b78-3c2a-8c4a449d2f23" attribute="242f8caf-54df-4bd0-8f36-c832d8df4464"/>
+          <object name="c3c7932c-881d-4bd9-9b24-063329d15a01" attribute="7c628d4b-3f13-4464-9b24-aed5ad0ebac1"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="b712647f-560f-4dc3-9256-226fd4fcd0d4">
+      <attributes>
+        <position x="-97.5883" y="0.000000" z="32.914649999999995"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Jack County_link_0"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="3fdb414c-9cac-4d0b-b327-8aaeda47ebb1">
+      <attributes>
+        <position x="-97.87146000000001" y="0.000000" z="32.699682499999994"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Jack County_link_1"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="242f8caf-54df-4bd0-8f36-c832d8df4464">
+      <attributes>
+        <position x="-97.50555" y="0.000000" z="32.7656"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Jack County_link_2"/>
+      </attributes>
+      <attributes name="NA_Node_Threat">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Vulnerability">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Consequence">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Prevention_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Response_Cost">
+        <scalar value="1.000000"/>
+      </attributes>
+      <attributes name="NA_Node_Description">
+        <text value=""/>
+      </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
+    </object>
+    <object type="na_link_attribute" uuid="7c628d4b-3f13-4464-9b24-aed5ad0ebac1">
+      <attributes>
+        <position x="-96.49955" y="0.000000" z="33.09635"/>
+      </attributes>
+      <attributes name="NA_Link_Flow">
+        <state value="NA_Flow_Forward | NA_Flow_Reverse"/>
+      </attributes>
+      <attributes name="NA_Node_Name">
+        <text value="Jack County_link_3"/>
       </attributes>
       <attributes name="NA_Node_Threat">
         <scalar value="1.000000"/>
