@@ -1,2 +1,453 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dmz><archive-version version="0"/><archive><object type="na_simulator" uuid="1b526352-16bf-6f48-ae94-c34262cc4365"/><object type="ft_clip_board" uuid="d778c9ed-7d25-4f5f-b11c-7f848b03e7f5"/><object type="na_simulator" uuid="e871a27d-952a-436d-9f49-5ed4e381353b"/><object type="root_layer" uuid="6c122750-bd5c-42b4-becd-1c1551c97a07"><attributes name="Layer_Order"><links><object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/></links></attributes></object><object type="layer" uuid="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"><attributes name="Layer_Name"><text value="Network-0"/></attributes><attributes name="Layer_Visible"><flag value="true"/></attributes><attributes name="Layer_Locked"><flag value="false"/></attributes><attributes name="Layer_Active"><flag value="true"/></attributes></object><object type="na_node" uuid="54cfd5c1-dcc1-452c-a624-f1be58e0c30b"><attributes><position x="-96.048100" y="0.000000" z="28.795000"/></attributes><attributes name="NA_Node_Name"><text value="South Texas Project"/></attributes><attributes name="NA_Node_Threat"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Vulnerability"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Consequence"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Prevention_Cost"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Response_Cost"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Description"><text value="Capacity (MW) 2708.6 Fuel type Nuclear"/></attributes><attributes name="Layer_Link"><links><object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/></links></attributes></object><object type="na_node" uuid="9f711a84-dcda-43a2-8648-bb40b55cd784"><attributes><position x="-98.320300" y="0.000000" z="29.309722"/></attributes><attributes name="NA_Node_Name"><text value="J K Spruce"/></attributes><attributes name="NA_Node_Threat"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Vulnerability"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Consequence"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Prevention_Cost"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Response_Cost"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Description"><text value="Capacity (MW) 1444.0 Fuel type Coal"/></attributes><attributes name="Layer_Link"><links><object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/></links></attributes><attributes name="Node_Link"><links><object name="54cfd5c1-dcc1-452c-a624-f1be58e0c30b" attribute="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></links></attributes></object><object type="na_link_attribute" uuid="740bc7c0-b282-49cb-8570-89434d7b7794"><attributes><position x="-97.184200" y="0.000000" z="29.052361"/></attributes><attributes name="NA_Link_Flow"><state value="NA_Flow_Forward | NA_Flow_Reverse"/></attributes><attributes name="NA_Node_Name"><text value="J K Spruce_link_0"/></attributes><attributes name="NA_Node_Threat"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Vulnerability"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Consequence"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Prevention_Cost"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Response_Cost"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Description"><text value=""/></attributes><attributes name="Layer_Link"><links><object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/></links></attributes></object><object type="na_link_attribute" uuid="a87079c8-68d8-c845-994d-ecc1f81fecb4"><attributes><position x="-97.184200" y="0.000000" z="29.052361"/></attributes><attributes name="NA_Link_Flow"><state value="NA_Flow_Forward | NA_Flow_Reverse"/></attributes><attributes name="NA_Node_Name"><text value="lynk"/></attributes><attributes name="NA_Node_Threat"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Vulnerability"><scalar value="1.000000"/></attributes><attributes name="NA_Node_Consequence"><scalar value="0.000000"/></attributes><attributes name="NA_Node_Prevention_Cost"><scalar value="0.000000"/></attributes><attributes name="NA_Node_Response_Cost"><scalar value="0.000000"/></attributes><attributes name="NA_Node_Description"><text value=""/></attributes><attributes name="Layer_Link"><links><object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/></links></attributes></object></archive><active-channel-list><channel name="NetworkAnalysisChannel"/></active-channel-list><dmzArchivePluginUndo><undo name="Link Nodes"><action message="Object_Plugin_Undo_Unlink_Objects_Message" target="dmzObjectPluginUndo"><data><attribute name="Handle" type="String"><element value="Node_Link"/></attribute><attribute name="UUID" type="String"><element value="9f711a84-dcda-43a2-8648-bb40b55cd784"/><element value="54cfd5c1-dcc1-452c-a624-f1be58e0c30b"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="9f711a84-dcda-43a2-8648-bb40b55cd784"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Degrees"/></attribute><attribute name="Mask" type="UInt32"><element value="2097152"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="54cfd5c1-dcc1-452c-a624-f1be58e0c30b"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Degrees"/></attribute><attribute name="Mask" type="UInt32"><element value="2097152"/></attribute></data></action><action message="Object_Plugin_Undo_Store_Link_Attribute_Object_Message" target="dmzObjectPluginUndo"><data><attribute name="Handle" type="String"><element value="Node_Link"/></attribute><attribute name="UUID" type="String"><element value="00000000-0000-0000-0000-000000000000"/><element value="9f711a84-dcda-43a2-8648-bb40b55cd784"/><element value="54cfd5c1-dcc1-452c-a624-f1be58e0c30b"/></attribute></data></action><action message="Object_Plugin_Undo_Destroy_Object_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="Object_Default_Attribute"/></attribute><attribute name="Mask" type="UInt32"><element value="32768"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Link_Flow"/></attribute><attribute name="Mask" type="UInt32"><element value="4096"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Name"/></attribute><attribute name="Mask" type="UInt32"><element value="4194304"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Threat"/></attribute><attribute name="Mask" type="UInt32"><element value="2097152"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Vulnerability"/></attribute><attribute name="Mask" type="UInt32"><element value="2097152"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Consequence"/></attribute><attribute name="Mask" type="UInt32"><element value="2097152"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Prevention_Cost"/></attribute><attribute name="Mask" type="UInt32"><element value="2097152"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Response_Cost"/></attribute><attribute name="Mask" type="UInt32"><element value="2097152"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Description"/></attribute><attribute name="Mask" type="UInt32"><element value="4194304"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Degrees"/></attribute><attribute name="Mask" type="UInt32"><element value="2097152"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Gamma"/></attribute><attribute name="Mask" type="UInt32"><element value="2097152"/></attribute></data></action><action message="Object_Plugin_Undo_Unlink_Objects_Message" target="dmzObjectPluginUndo"><data><attribute name="Handle" type="String"><element value="Layer_Link"/></attribute><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/><element value="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="Alt_Position_Attribute"/></attribute><attribute name="Mask" type="UInt32"><element value="32768"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Risk_Initial"/></attribute><attribute name="Mask" type="UInt32"><element value="2097152"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Degrees"/></attribute><attribute name="Mask" type="UInt32"><element value="2097152"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Gamma"/></attribute><attribute name="Mask" type="UInt32"><element value="2097152"/></attribute></data></action><action message="Object_Plugin_Undo_Unlink_Objects_Message" target="dmzObjectPluginUndo"><data><attribute name="Handle" type="String"><element value="Layer_Link"/></attribute><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/><element value="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="Alt_Position_Attribute"/></attribute><attribute name="Mask" type="UInt32"><element value="32768"/></attribute></data></action><action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo"><data><attribute name="UUID" type="String"><element value="a87079c8-68d8-c845-994d-ecc1f81fecb4"/></attribute><attribute name="Handle" type="String"><element value="NA_Node_Risk_Initial"/></attribute><attribute name="Mask" type="UInt32"><element value="2097152"/></attribute></data></action></undo></dmzArchivePluginUndo><NAMapArchive><mapControl><center x="-97.733330" y="30.266666"/><zoom value="7"/></mapControl></NAMapArchive><dmzQtPluginMapProperties><show-map value="true"/><map-adapter name="OpenStreetMap" type="tile" server="tile.openstreetmap.org" path="/%1/%2/%3.png" tileSize="256" minZoom="0" maxZoom="17"/></dmzQtPluginMapProperties><FTCanvasArchive><canvasView><matrix m11="0.974000" m12="0.000000" m21="0.000000" m22="0.974000" dx="0.000000" dy="0.000000"/><center x="-1.026694" y="-1.026694"/></canvasView></FTCanvasArchive></dmz>
+<dmz>
+    <archive-version version="0" />
+    <archive>
+        <object type="na_simulator" uuid="1b526352-16bf-6f48-ae94-c34262cc4365" />
+        <object type="ft_clip_board" uuid="d778c9ed-7d25-4f5f-b11c-7f848b03e7f5" />
+        <object type="na_simulator" uuid="e871a27d-952a-436d-9f49-5ed4e381353b" />
+        <object type="root_layer" uuid="6c122750-bd5c-42b4-becd-1c1551c97a07">
+            <attributes name="Layer_Order">
+                <links>
+                    <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e" />
+                </links>
+            </attributes>
+        </object>
+        <object type="layer" uuid="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e">
+            <attributes name="Layer_Name">
+                <text value="Network-0" />
+            </attributes>
+            <attributes name="Layer_Visible">
+                <flag value="true" />
+            </attributes>
+            <attributes name="Layer_Locked">
+                <flag value="false" />
+            </attributes>
+            <attributes name="Layer_Active">
+                <flag value="true" />
+            </attributes>
+        </object>
+        <object type="na_node" uuid="55c31c95-4877-1a33-9921-234712449cce">
+            <attributes>
+                <position x="-96.048100" y="0.000000" z="28.795000" />
+            </attributes>
+            <attributes name="NA_Node_Name">
+                <text value="South Texas Project" />
+            </attributes>
+            <attributes name="NA_Node_Threat">
+                <scalar value="1.000000" />
+            </attributes>
+            <attributes name="NA_Node_Vulnerability">
+                <scalar value="1.000000" />
+            </attributes>
+            <attributes name="NA_Node_Consequence">
+                <scalar value="1.000000" />
+            </attributes>
+            <attributes name="NA_Node_Prevention_Cost">
+                <scalar value="1.000000" />
+            </attributes>
+            <attributes name="NA_Node_Response_Cost">
+                <scalar value="1.000000" />
+            </attributes>
+            <attributes name="NA_Node_Description">
+                <text value="Capacity (MW) 2708.6 Fuel type Nuclear" />
+            </attributes>
+            <attributes name="Layer_Link">
+                <links>
+                    <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e" />
+                </links>
+            </attributes>
+        </object>
+        <object type="na_node" uuid="d27e9a32-3cf3-5c46-8078-48b62ca709694">
+            <attributes>
+                <position x="-98.320300" y="0.000000" z="29.309722" />
+            </attributes>
+            <attributes name="NA_Node_Name">
+                <text value="J K Spruce" />
+            </attributes>
+            <attributes name="NA_Node_Threat">
+                <scalar value="1.000000" />
+            </attributes>
+            <attributes name="NA_Node_Vulnerability">
+                <scalar value="1.000000" />
+            </attributes>
+            <attributes name="NA_Node_Consequence">
+                <scalar value="1.000000" />
+            </attributes>
+            <attributes name="NA_Node_Prevention_Cost">
+                <scalar value="1.000000" />
+            </attributes>
+            <attributes name="NA_Node_Response_Cost">
+                <scalar value="1.000000" />
+            </attributes>
+            <attributes name="NA_Node_Description">
+                <text value="Capacity (MW) 1444.0 Fuel type Coal" />
+            </attributes>
+            <attributes name="Layer_Link">
+                <links>
+                    <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e" />
+                </links>
+            </attributes>
+            <attributes name="Node_Link">
+                <links>
+                    <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                </links>
+            </attributes>
+        </object>
+        <object type="na_link_attribute" uuid="a87079c8-68d8-c845-994d-ecc1f81fecb4">
+            <attributes>
+                <position x="-97.184200" y="0.000000" z="29.052361" />
+            </attributes>
+            <attributes name="NA_Link_Flow">
+                <state value="NA_Flow_Forward | NA_Flow_Reverse" />
+            </attributes>
+            <attributes name="NA_Node_Name">
+                <text value="lynk" />
+            </attributes>
+            <attributes name="NA_Node_Threat">
+                <scalar value="1.000000" />
+            </attributes>
+            <attributes name="NA_Node_Vulnerability">
+                <scalar value="1.000000" />
+            </attributes>
+            <attributes name="NA_Node_Consequence">
+                <scalar value="0.000000" />
+            </attributes>
+            <attributes name="NA_Node_Prevention_Cost">
+                <scalar value="0.000000" />
+            </attributes>
+            <attributes name="NA_Node_Response_Cost">
+                <scalar value="0.000000" />
+            </attributes>
+            <attributes name="NA_Node_Description">
+                <text value="" />
+            </attributes>
+            <attributes name="Layer_Link">
+                <links>
+                    <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e" />
+                </links>
+            </attributes>
+        </object>
+    </archive>
+    <active-channel-list>
+        <channel name="NetworkAnalysisChannel" />
+    </active-channel-list>
+    <dmzArchivePluginUndo>
+        <undo name="Link Nodes">
+            <action message="Object_Plugin_Undo_Unlink_Objects_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="Handle" type="String">
+                        <element value="Node_Link" />
+                    </attribute>
+                    <attribute name="UUID" type="String">
+                        <element value="d27e9a32-3cf3-5c46-8078-48b62ca709694" />
+                        <element value="55c31c95-4877-1a33-9921-234712449cce" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="d27e9a32-3cf3-5c46-8078-48b62ca709694" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Degrees" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="2097152" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="55c31c95-4877-1a33-9921-234712449cce" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Degrees" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="2097152" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Store_Link_Attribute_Object_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="Handle" type="String">
+                        <element value="Node_Link" />
+                    </attribute>
+                    <attribute name="UUID" type="String">
+                        <element value="00000000-0000-0000-0000-000000000000" />
+                        <element value="d27e9a32-3cf3-5c46-8078-48b62ca709694" />
+                        <element value="55c31c95-4877-1a33-9921-234712449cce" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Destroy_Object_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="Object_Default_Attribute" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="32768" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Link_Flow" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="4096" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Name" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="4194304" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Threat" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="2097152" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Vulnerability" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="2097152" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Consequence" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="2097152" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Prevention_Cost" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="2097152" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Response_Cost" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="2097152" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Description" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="4194304" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Degrees" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="2097152" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Gamma" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="2097152" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Unlink_Objects_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="Handle" type="String">
+                        <element value="Layer_Link" />
+                    </attribute>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                        <element value="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="Alt_Position_Attribute" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="32768" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Risk_Initial" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="2097152" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Degrees" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="2097152" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Gamma" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="2097152" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Unlink_Objects_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="Handle" type="String">
+                        <element value="Layer_Link" />
+                    </attribute>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                        <element value="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="Alt_Position_Attribute" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="32768" />
+                    </attribute>
+                </data>
+            </action>
+            <action message="Object_Plugin_Undo_Remove_Attribute_Message" target="dmzObjectPluginUndo">
+                <data>
+                    <attribute name="UUID" type="String">
+                        <element value="a87079c8-68d8-c845-994d-ecc1f81fecb4" />
+                    </attribute>
+                    <attribute name="Handle" type="String">
+                        <element value="NA_Node_Risk_Initial" />
+                    </attribute>
+                    <attribute name="Mask" type="UInt32">
+                        <element value="2097152" />
+                    </attribute>
+                </data>
+            </action>
+        </undo>
+    </dmzArchivePluginUndo>
+    <NAMapArchive>
+        <mapControl>
+            <center x="-97.733330" y="30.266666" />
+            <zoom value="7" />
+        </mapControl>
+    </NAMapArchive>
+    <dmzQtPluginMapProperties>
+        <show-map value="true" />
+        <map-adapter name="OpenStreetMap" type="tile" server="tile.openstreetmap.org" path="/%1/%2/%3.png" tileSize="256" minZoom="0" maxZoom="17" />
+    </dmzQtPluginMapProperties>
+    <FTCanvasArchive>
+        <canvasView>
+            <matrix m11="0.974000" m12="0.000000" m21="0.000000" m22="0.974000" dx="0.000000" dy="0.000000" />
+            <center x="-1.026694" y="-1.026694" />
+        </canvasView>
+    </FTCanvasArchive>
+</dmz>

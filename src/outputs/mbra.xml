@@ -3,7 +3,7 @@
   <archive-version version="0"/>
   <archive>
     <object type="ft_clip_board" uuid="d778c9ed-7d25-4f5f-b11c-7f848b03e7f5"/>
-    <object type="na_simulator" uuid="e871a27d-952a-436d-9f49-5ed4e381353b"/>
+    <object type="na_simulator" uuid="1b526352-16bf-6f48-ae94-c34262cc4365"/>
     <object type="root_layer" uuid="6c122750-bd5c-42b4-becd-1c1551c97a07">
       <attributes name="Layer_Order">
         <links>
@@ -25,7 +25,7 @@
         <flag value="true"/>
       </attributes>
     </object>
-    <object type="na_node" uuid="54cfd5c1-dcc1-452c-a624-f1be58e0c30b">
+    <object type="na_node" uuid="55c31c95-4877-1a33-9921-234712449cce">
       <attributes>
         <position x="-96.0481" y="0.000000" z="28.795"/>
       </attributes>
@@ -50,8 +50,13 @@
       <attributes name="NA_Node_Description">
         <text value="Capacity (MW) 2708.6 Fuel type Nuclear"/>
       </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
     </object>
-    <object type="na_node" uuid="9f711a84-dcda-43a2-8648-bb40b55cd784">
+    <object type="na_node" uuid="d27e9a32-3cf3-5c46-8078-48b62ca70969">
       <attributes>
         <position x="-98.3203" y="0.000000" z="29.309722"/>
       </attributes>
@@ -76,13 +81,18 @@
       <attributes name="NA_Node_Description">
         <text value="Capacity (MW) 1444.0 Fuel type Coal"/>
       </attributes>
+      <attributes name="Layer_Link">
+        <links>
+          <object name="dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"/>
+        </links>
+      </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="740bc7c0-b282-49cb-8570-89434d7b7794"/>
+          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="8c564b5d-f8c5-44a0-8634-0de1f1eab3ab"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="740bc7c0-b282-49cb-8570-89434d7b7794">
+    <object type="na_link_attribute" uuid="8c564b5d-f8c5-44a0-8634-0de1f1eab3ab">
       <attributes>
         <position x="-97.1842" y="0.000000" z="29.052361"/>
       </attributes>

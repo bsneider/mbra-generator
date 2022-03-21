@@ -13,13 +13,14 @@ def create_node(archive_element, layer_uuid,
                 long, lat, name, threat, vuln, consequence,
                 prevention_cost, response_cost, link_node_id, description="",
                 node_type="na_node",
-                dest_ids=None):
+                dest_ids=None,
+                node_id=None):
     obj_x = et.SubElement(archive_element, "object")
     obj_x.set("type", node_type)
     if node_type == "na_link_attribute":
         obj_x.set("uuid", link_node_id)
     else:
-        obj_x.set("uuid", str(uuid4()))
+        obj_x.set("uuid", node_id)
     a = et.SubElement(obj_x, "attributes")
     pos = et.SubElement(a, "position")
     pos.set("x", str(long))
@@ -59,12 +60,11 @@ def create_node(archive_element, layer_uuid,
     a7.set("name", "NA_Node_Description")
     s7 = et.SubElement(a7, "text")
     s7.set("value", str(description))
-    if node_type == "na_link_attribute":
-        a8 = et.SubElement(obj_x, "attributes")
-        a8.set("name", "Layer_Link")
-        l8 = et.SubElement(a8, "links")
-        o8 = et.SubElement(l8, "object")
-        o8.set("name", layer_uuid)
+    a8 = et.SubElement(obj_x, "attributes")
+    a8.set("name", "Layer_Link")
+    l8 = et.SubElement(a8, "links")
+    o8 = et.SubElement(l8, "object")
+    o8.set("name", layer_uuid)
 
     if dest_ids is not None and str(dest_ids) + "1" != "1":
         a10 = et.SubElement(obj_x, "attributes")
@@ -97,18 +97,18 @@ a_v.set("version", "0")
 arch = et.SubElement(root, "archive")
 obj_1 = et.SubElement(arch, "object")
 obj_1.set("type", "ft_clip_board")
-obj_1.set("uuid", str(uuid4()))
+obj_1.set("uuid", "d778c9ed-7d25-4f5f-b11c-7f848b03e7f5")
 obj_2 = et.SubElement(arch, "object")
 obj_2.set("type", "na_simulator")
-obj_2.set("uuid", str(uuid4()))
+obj_2.set("uuid", "1b526352-16bf-6f48-ae94-c34262cc4365")
 obj_3 = et.SubElement(arch, "object")
 obj_3.set("type", "root_layer")
-obj_3.set("uuid", str(uuid4()))
+obj_3.set("uuid", "6c122750-bd5c-42b4-becd-1c1551c97a07")
 r_l_attr = et.SubElement(obj_3, "attributes")
 r_l_attr.set("name", "Layer_Order")
 links = et.SubElement(r_l_attr, "links")
 obj_4 = et.SubElement(links, "object")
-layer_uuid = str(uuid4())
+layer_uuid = "dc22fa13-f7f1-4fac-bc29-942cb3fadc5e" ##str(uuid4())
 obj_4.set("name", layer_uuid)
 obj_5 = et.SubElement(arch, "object")
 obj_5.set("type", "layer")
@@ -134,6 +134,7 @@ for index, row in data.iterrows():
     create_node(arch, layer_uuid, row.longitude, row.latitude, row["Plant Name"], threat="1.000000",
                 vuln="1.000000", consequence="1.000000", prevention_cost="1.000000", response_cost="1.000000",
                 link_node_id=None,
+                node_id=row["node_id"],
                 dest_ids=row["dest_ids"],
                 description=f'Capacity (MW) {row["Capacity (MW)"]} Fuel type {row["Fuel type"]}')
 
