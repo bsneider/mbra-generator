@@ -108,7 +108,7 @@ r_l_attr = et.SubElement(obj_3, "attributes")
 r_l_attr.set("name", "Layer_Order")
 links = et.SubElement(r_l_attr, "links")
 obj_4 = et.SubElement(links, "object")
-layer_uuid = "dc22fa13-f7f1-4fac-bc29-942cb3fadc5e" ##str(uuid4())
+layer_uuid = "dc22fa13-f7f1-4fac-bc29-942cb3fadc5e"  # str(uuid4())
 obj_4.set("name", layer_uuid)
 obj_5 = et.SubElement(arch, "object")
 obj_5.set("type", "layer")
@@ -131,8 +131,9 @@ n_03 = et.SubElement(l_n3, "flag")
 n_03.set("value", "true")
 
 for index, row in data.iterrows():
+    # Create nodes for each plant
     create_node(arch, layer_uuid, row.longitude, row.latitude, row["Plant Name"], threat="1.000000",
-                vuln="1.000000", consequence="1.000000", prevention_cost="1.000000", response_cost="1.000000",
+                vuln="1.000000", consequence=row["Consequence ($M)"], prevention_cost=row["Prevention ($M)"], response_cost=row["Response ($M)"],
                 link_node_id=None,
                 node_id=row["node_id"],
                 dest_ids=row["dest_ids"],
