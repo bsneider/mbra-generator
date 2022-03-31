@@ -57,12 +57,12 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="d27e9a32-3cf3-5c46-8078-48b62ca70969" attribute="fc3cfe84-adf9-48bd-ad48-d4f4f33603bd"/>
-          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="2ae216bf-7c1b-462a-97d7-506fcb25b966"/>
+          <object name="d27e9a32-3cf3-5c46-8078-48b62ca70969" attribute="9d2bee14-e236-44a2-b2ca-43ba458e9bc0"/>
+          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="7bff139c-34a7-4dc4-ac4f-3f28f016f542"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="fc3cfe84-adf9-48bd-ad48-d4f4f33603bd">
+    <object type="na_link_attribute" uuid="9d2bee14-e236-44a2-b2ca-43ba458e9bc0">
       <attributes>
         <position x="-96.97545" y="0.000000" z="29.396511"/>
       </attributes>
@@ -73,19 +73,19 @@
         <text value="W A Parish_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -96,7 +96,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="2ae216bf-7c1b-462a-97d7-506fcb25b966">
+    <object type="na_link_attribute" uuid="7bff139c-34a7-4dc4-ac4f-3f28f016f542">
       <attributes>
         <position x="-95.83935" y="0.000000" z="29.13915"/>
       </attributes>
@@ -107,19 +107,19 @@
         <text value="W A Parish_link_1"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -162,13 +162,13 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="8167cc53-72f4-6e73-64b5-57ba5687a2ad" attribute="d532574d-ab63-439d-badc-61870592eb22"/>
-          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="59cc3e28-5ac4-4edd-8699-81ba973548a1"/>
-          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="ad4d0a00-8bba-459a-ab62-c07d0a767471"/>
+          <object name="8167cc53-72f4-6e73-64b5-57ba5687a2ad" attribute="ef15d0df-2142-4954-97e0-6e8683579ccd"/>
+          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="49d4ded8-919c-4e78-8412-d5977bcdf842"/>
+          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="21345ee5-8294-4022-81ab-7c03100492c8"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="d532574d-ab63-439d-badc-61870592eb22">
+    <object type="na_link_attribute" uuid="ef15d0df-2142-4954-97e0-6e8683579ccd">
       <attributes>
         <position x="-96.36955" y="0.000000" z="31.301099999999998"/>
       </attributes>
@@ -179,19 +179,19 @@
         <text value="Limestone_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -202,7 +202,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="59cc3e28-5ac4-4edd-8699-81ba973548a1">
+    <object type="na_link_attribute" uuid="49d4ded8-919c-4e78-8412-d5977bcdf842">
       <attributes>
         <position x="-95.58905" y="0.000000" z="30.58595"/>
       </attributes>
@@ -213,19 +213,19 @@
         <text value="Limestone_link_1"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -236,7 +236,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="ad4d0a00-8bba-459a-ab62-c07d0a767471">
+    <object type="na_link_attribute" uuid="21345ee5-8294-4022-81ab-7c03100492c8">
       <attributes>
         <position x="-95.94155" y="0.000000" z="30.4526"/>
       </attributes>
@@ -247,19 +247,19 @@
         <text value="Limestone_link_2"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -302,11 +302,11 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="7e4a2f72-6d91-4ed8-b679-377d07dafe0a"/>
+          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="4ccbcd66-1d03-4b89-a7d3-a29bb4f56593"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="7e4a2f72-6d91-4ed8-b679-377d07dafe0a">
+    <object type="na_link_attribute" uuid="4ccbcd66-1d03-4b89-a7d3-a29bb4f56593">
       <attributes>
         <position x="-95.2781" y="0.000000" z="29.61665"/>
       </attributes>
@@ -317,19 +317,19 @@
         <text value="Cedar Bayou_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -372,14 +372,14 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="000c1d92-04ce-442c-6371-67b78e19480e" attribute="98e3ca34-1b35-4a87-be11-b2811db8c84f"/>
-          <object name="8167cc53-72f4-6e73-64b5-57ba5687a2ad" attribute="61f2d067-66e0-456f-98bc-ffe5cd5f8f02"/>
-          <object name="4dd236be-09c2-03ed-06e2-505b0de06b4d" attribute="a243e629-86f3-4c42-82cf-f38f78304324"/>
-          <object name="d27e9a32-3cf3-5c46-8078-48b62ca70969" attribute="573be858-9024-4d3f-92fa-15e702d83fcb"/>
+          <object name="000c1d92-04ce-442c-6371-67b78e19480e" attribute="73d6506c-72a5-43bc-bb3a-07e9f4a5164f"/>
+          <object name="8167cc53-72f4-6e73-64b5-57ba5687a2ad" attribute="fc1d93bd-ee35-4631-ab17-9c2581234732"/>
+          <object name="4dd236be-09c2-03ed-06e2-505b0de06b4d" attribute="192a6344-0029-4ea5-a94c-eb8feadf1e13"/>
+          <object name="d27e9a32-3cf3-5c46-8078-48b62ca70969" attribute="49ba17e4-f262-4fc6-bc1b-196fdc807476"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="98e3ca34-1b35-4a87-be11-b2811db8c84f">
+    <object type="na_link_attribute" uuid="73d6506c-72a5-43bc-bb3a-07e9f4a5164f">
       <attributes>
         <position x="-97.01901000000001" y="0.000000" z="31.8601325"/>
       </attributes>
@@ -390,19 +390,19 @@
         <text value="Comanche Peak_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -413,7 +413,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="61f2d067-66e0-456f-98bc-ffe5cd5f8f02">
+    <object type="na_link_attribute" uuid="fc1d93bd-ee35-4631-ab17-9c2581234732">
       <attributes>
         <position x="-97.13606" y="0.000000" z="31.739332499999996"/>
       </attributes>
@@ -424,19 +424,19 @@
         <text value="Comanche Peak_link_1"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -447,7 +447,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="a243e629-86f3-4c42-82cf-f38f78304324">
+    <object type="na_link_attribute" uuid="192a6344-0029-4ea5-a94c-eb8feadf1e13">
       <attributes>
         <position x="-97.55137" y="0.000000" z="31.677099"/>
       </attributes>
@@ -458,19 +458,19 @@
         <text value="Comanche Peak_link_2"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -481,7 +481,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="573be858-9024-4d3f-92fa-15e702d83fcb">
+    <object type="na_link_attribute" uuid="49ba17e4-f262-4fc6-bc1b-196fdc807476">
       <attributes>
         <position x="-98.05291" y="0.000000" z="30.8040435"/>
       </attributes>
@@ -492,19 +492,19 @@
         <text value="Comanche Peak_link_3"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -547,16 +547,16 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="000c1d92-04ce-442c-6371-67b78e19480e" attribute="5e4ae904-aa2f-42aa-8b63-a7ef094889b6"/>
-          <object name="8167cc53-72f4-6e73-64b5-57ba5687a2ad" attribute="aaeeaa09-e125-4ed9-9a34-b0ec061d2b80"/>
-          <object name="ec76a4d2-37e5-a696-03ce-4808e2d96051" attribute="36fc67a4-de73-4b27-a44e-a5113569259d"/>
-          <object name="6ed1f42d-17cf-8732-6dd2-2443dc4343bf" attribute="6b0a4b44-504f-439f-99ba-fad3e7bc5642"/>
-          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="89ea8727-bfd8-4004-b7a7-302c26965c40"/>
-          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="1de5e4b6-d196-47c9-a40c-7ab2db2d4bd1"/>
+          <object name="000c1d92-04ce-442c-6371-67b78e19480e" attribute="101b72a2-5c19-4c8a-9828-9673c9f3801b"/>
+          <object name="8167cc53-72f4-6e73-64b5-57ba5687a2ad" attribute="281bb2bc-d122-42f7-a531-cc3bd3d9450a"/>
+          <object name="ec76a4d2-37e5-a696-03ce-4808e2d96051" attribute="8872567c-4891-49ea-a1bb-5539dff0828d"/>
+          <object name="6ed1f42d-17cf-8732-6dd2-2443dc4343bf" attribute="2f205e0e-d9f3-43ad-8a7b-8ed5dccd6d86"/>
+          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="8efedd27-33d7-4ed4-91e8-8dab05bc99f1"/>
+          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="6819b31c-f92e-4bff-aa8a-9053ca7f75fe"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="5e4ae904-aa2f-42aa-8b63-a7ef094889b6">
+    <object type="na_link_attribute" uuid="101b72a2-5c19-4c8a-9828-9673c9f3801b">
       <attributes>
         <position x="-95.41155" y="0.000000" z="31.84125"/>
       </attributes>
@@ -567,19 +567,19 @@
         <text value="Martin Lake_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -590,7 +590,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="aaeeaa09-e125-4ed9-9a34-b0ec061d2b80">
+    <object type="na_link_attribute" uuid="281bb2bc-d122-42f7-a531-cc3bd3d9450a">
       <attributes>
         <position x="-95.5286" y="0.000000" z="31.72045"/>
       </attributes>
@@ -601,19 +601,19 @@
         <text value="Martin Lake_link_1"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -624,7 +624,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="36fc67a4-de73-4b27-a44e-a5113569259d">
+    <object type="na_link_attribute" uuid="8872567c-4891-49ea-a1bb-5539dff0828d">
       <attributes>
         <position x="-94.15295" y="0.000000" z="31.2597"/>
       </attributes>
@@ -635,19 +635,19 @@
         <text value="Martin Lake_link_2"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -658,7 +658,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="6b0a4b44-504f-439f-99ba-fad3e7bc5642">
+    <object type="na_link_attribute" uuid="2f205e0e-d9f3-43ad-8a7b-8ed5dccd6d86">
       <attributes>
         <position x="-94.2243" y="0.000000" z="31.1424"/>
       </attributes>
@@ -669,19 +669,19 @@
         <text value="Martin Lake_link_3"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -692,7 +692,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="89ea8727-bfd8-4004-b7a7-302c26965c40">
+    <object type="na_link_attribute" uuid="8efedd27-33d7-4ed4-91e8-8dab05bc99f1">
       <attributes>
         <position x="-94.7481" y="0.000000" z="31.0053"/>
       </attributes>
@@ -703,19 +703,19 @@
         <text value="Martin Lake_link_4"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -726,7 +726,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="1de5e4b6-d196-47c9-a40c-7ab2db2d4bd1">
+    <object type="na_link_attribute" uuid="6819b31c-f92e-4bff-aa8a-9053ca7f75fe">
       <attributes>
         <position x="-95.1006" y="0.000000" z="30.87195"/>
       </attributes>
@@ -737,19 +737,19 @@
         <text value="Martin Lake_link_5"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -792,13 +792,13 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="723d89bd-19ba-0e69-32d0-794d6b547ab4" attribute="d1557ce2-5090-467f-b319-a3ae7bb75db7"/>
-          <object name="000c1d92-04ce-442c-6371-67b78e19480e" attribute="f76a4917-2a95-460c-875d-632d24ed6758"/>
-          <object name="56b963d6-5354-0b78-3c2a-8c4a449d2f23" attribute="b21fad31-f238-4cdb-81c2-3f8965893b66"/>
+          <object name="723d89bd-19ba-0e69-32d0-794d6b547ab4" attribute="6b83a191-9f9f-4b04-b6ce-599108ae31c6"/>
+          <object name="000c1d92-04ce-442c-6371-67b78e19480e" attribute="ab9d7260-a5de-47bc-9e2e-2fd412db1c37"/>
+          <object name="56b963d6-5354-0b78-3c2a-8c4a449d2f23" attribute="addfbd8b-0d05-41fd-834a-47057b447e4c"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="d1557ce2-5090-467f-b319-a3ae7bb75db7">
+    <object type="na_link_attribute" uuid="6b83a191-9f9f-4b04-b6ce-599108ae31c6">
       <attributes>
         <position x="-95.53110000000001" y="0.000000" z="32.508449999999996"/>
       </attributes>
@@ -809,19 +809,19 @@
         <text value="Forney Energy Center_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -832,7 +832,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="f76a4917-2a95-460c-875d-632d24ed6758">
+    <object type="na_link_attribute" uuid="ab9d7260-a5de-47bc-9e2e-2fd412db1c37">
       <attributes>
         <position x="-96.37205" y="0.000000" z="32.0891"/>
       </attributes>
@@ -843,19 +843,19 @@
         <text value="Forney Energy Center_link_1"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -866,7 +866,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="b21fad31-f238-4cdb-81c2-3f8965893b66">
+    <object type="na_link_attribute" uuid="addfbd8b-0d05-41fd-834a-47057b447e4c">
       <attributes>
         <position x="-96.77265" y="0.000000" z="32.59325"/>
       </attributes>
@@ -877,19 +877,19 @@
         <text value="Forney Energy Center_link_2"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -932,15 +932,15 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="f82dc792-87b3-1390-7006-244ecf9293c6" attribute="de16bc55-d7ee-480c-8131-bcfd10353657"/>
-          <object name="723d89bd-19ba-0e69-32d0-794d6b547ab4" attribute="cab1d5e8-6cc9-434d-b1b8-9a4646b1f853"/>
-          <object name="000c1d92-04ce-442c-6371-67b78e19480e" attribute="9a9e0fa2-0c99-44db-8006-4e247ad62422"/>
-          <object name="8167cc53-72f4-6e73-64b5-57ba5687a2ad" attribute="638dd385-c955-42bc-b8b1-2fce9e9da185"/>
-          <object name="4dd236be-09c2-03ed-06e2-505b0de06b4d" attribute="7cb2a4f4-dcfc-48ad-b324-3fada63ab666"/>
+          <object name="f82dc792-87b3-1390-7006-244ecf9293c6" attribute="3f0b6259-8d64-479e-9198-a3067fac06db"/>
+          <object name="723d89bd-19ba-0e69-32d0-794d6b547ab4" attribute="3989ab17-136e-4fff-bf0c-00ca256fb014"/>
+          <object name="000c1d92-04ce-442c-6371-67b78e19480e" attribute="898bbc61-d84b-47c2-84d5-eaf3c58adcd9"/>
+          <object name="8167cc53-72f4-6e73-64b5-57ba5687a2ad" attribute="e9920cce-d751-42d3-b37a-399850fb419a"/>
+          <object name="4dd236be-09c2-03ed-06e2-505b0de06b4d" attribute="829fcf9f-3b14-4e2d-9ca3-ff7656f774a1"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="de16bc55-d7ee-480c-8131-bcfd10353657">
+    <object type="na_link_attribute" uuid="3f0b6259-8d64-479e-9198-a3067fac06db">
       <attributes>
         <position x="-97.41961" y="0.000000" z="32.3642825"/>
       </attributes>
@@ -951,19 +951,19 @@
         <text value="Midlothian Energy Facility_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -974,7 +974,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="cab1d5e8-6cc9-434d-b1b8-9a4646b1f853">
+    <object type="na_link_attribute" uuid="3989ab17-136e-4fff-bf0c-00ca256fb014">
       <attributes>
         <position x="-95.81215" y="0.000000" z="32.3454"/>
       </attributes>
@@ -985,19 +985,19 @@
         <text value="Midlothian Energy Facility_link_1"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1008,7 +1008,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="9a9e0fa2-0c99-44db-8006-4e247ad62422">
+    <object type="na_link_attribute" uuid="898bbc61-d84b-47c2-84d5-eaf3c58adcd9">
       <attributes>
         <position x="-96.6531" y="0.000000" z="31.92605"/>
       </attributes>
@@ -1019,19 +1019,19 @@
         <text value="Midlothian Energy Facility_link_2"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1042,7 +1042,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="638dd385-c955-42bc-b8b1-2fce9e9da185">
+    <object type="na_link_attribute" uuid="e9920cce-d751-42d3-b37a-399850fb419a">
       <attributes>
         <position x="-96.77015" y="0.000000" z="31.80525"/>
       </attributes>
@@ -1053,19 +1053,19 @@
         <text value="Midlothian Energy Facility_link_3"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1076,7 +1076,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="7cb2a4f4-dcfc-48ad-b324-3fada63ab666">
+    <object type="na_link_attribute" uuid="829fcf9f-3b14-4e2d-9ca3-ff7656f774a1">
       <attributes>
         <position x="-97.18546" y="0.000000" z="31.7430165"/>
       </attributes>
@@ -1087,19 +1087,19 @@
         <text value="Midlothian Energy Facility_link_4"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1173,12 +1173,12 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="927df553-1dfd-a7b5-5f17-e7439e6f0eef" attribute="a3e3d0a3-946e-4470-b783-f4e63edc8f38"/>
-          <object name="723d89bd-19ba-0e69-32d0-794d6b547ab4" attribute="81074cff-d7f4-401e-87b7-47d94ebe0fd1"/>
+          <object name="927df553-1dfd-a7b5-5f17-e7439e6f0eef" attribute="4ed94d52-d4a1-4837-9036-a7dfcb14e51f"/>
+          <object name="723d89bd-19ba-0e69-32d0-794d6b547ab4" attribute="db020b5d-c431-4058-a253-8934d985518d"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="a3e3d0a3-946e-4470-b783-f4e63edc8f38">
+    <object type="na_link_attribute" uuid="4ed94d52-d4a1-4837-9036-a7dfcb14e51f">
       <attributes>
         <position x="-95.76665" y="0.000000" z="32.92400000000001"/>
       </attributes>
@@ -1189,19 +1189,19 @@
         <text value="Monticello_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1212,7 +1212,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="81074cff-d7f4-401e-87b7-47d94ebe0fd1">
+    <object type="na_link_attribute" uuid="db020b5d-c431-4058-a253-8934d985518d">
       <attributes>
         <position x="-94.80615" y="0.000000" z="32.67615"/>
       </attributes>
@@ -1223,19 +1223,19 @@
         <text value="Monticello_link_1"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1278,11 +1278,11 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="62abb2f3-34b1-4d97-af62-3a9c64df339d"/>
+          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="0aab3218-b092-4e8f-9151-7cab5a78de8c"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="62abb2f3-34b1-4d97-af62-3a9c64df339d">
+    <object type="na_link_attribute" uuid="0aab3218-b092-4e8f-9151-7cab5a78de8c">
       <attributes>
         <position x="-94.40180000000001" y="0.000000" z="29.8871"/>
       </attributes>
@@ -1293,19 +1293,19 @@
         <text value="Sabine_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1348,15 +1348,15 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="4dd236be-09c2-03ed-06e2-505b0de06b4d" attribute="2b73f143-503f-44c7-b187-96e9a8fb9a21"/>
-          <object name="cec6003a-9fcc-09b4-6396-6f0e81f833d8" attribute="9404491e-e05c-40ab-a141-581651ba015e"/>
-          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="34ef3d3f-62d2-417e-a949-6c6ef76612ef"/>
-          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="c282870a-5c1e-471c-9a08-cd7b0d3e0a2e"/>
-          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="93f44361-5e67-4468-95d4-ef2580e332c4"/>
+          <object name="4dd236be-09c2-03ed-06e2-505b0de06b4d" attribute="c5ff0a2f-c0b5-4a1f-93f5-ce8e26f11c77"/>
+          <object name="cec6003a-9fcc-09b4-6396-6f0e81f833d8" attribute="cceb2b3c-80eb-4b09-80d5-b7328683ecab"/>
+          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="a9b2a5c9-3c8f-4dc4-93dd-b375a9edefcb"/>
+          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="5a464816-20cc-4c4d-91cd-280498289c7c"/>
+          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="446c6c6a-8cc2-4fda-b94c-4eb3057e2850"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="2b73f143-503f-44c7-b187-96e9a8fb9a21">
+    <object type="na_link_attribute" uuid="c5ff0a2f-c0b5-4a1f-93f5-ce8e26f11c77">
       <attributes>
         <position x="-96.90191" y="0.000000" z="31.118066499999998"/>
       </attributes>
@@ -1367,19 +1367,19 @@
         <text value="Oak Grove (TX)_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1390,7 +1390,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="9404491e-e05c-40ab-a141-581651ba015e">
+    <object type="na_link_attribute" uuid="cceb2b3c-80eb-4b09-80d5-b7328683ecab">
       <attributes>
         <position x="-96.6186" y="0.000000" z="30.54875"/>
       </attributes>
@@ -1401,19 +1401,19 @@
         <text value="Oak Grove (TX)_link_1"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1424,7 +1424,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="34ef3d3f-62d2-417e-a949-6c6ef76612ef">
+    <object type="na_link_attribute" uuid="a9b2a5c9-3c8f-4dc4-93dd-b375a9edefcb">
       <attributes>
         <position x="-95.70609999999999" y="0.000000" z="30.46515"/>
       </attributes>
@@ -1435,19 +1435,19 @@
         <text value="Oak Grove (TX)_link_2"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1458,7 +1458,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="c282870a-5c1e-471c-9a08-cd7b0d3e0a2e">
+    <object type="na_link_attribute" uuid="5a464816-20cc-4c4d-91cd-280498289c7c">
       <attributes>
         <position x="-96.0586" y="0.000000" z="30.3318"/>
       </attributes>
@@ -1469,19 +1469,19 @@
         <text value="Oak Grove (TX)_link_3"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1492,7 +1492,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="93f44361-5e67-4468-95d4-ef2580e332c4">
+    <object type="na_link_attribute" uuid="446c6c6a-8cc2-4fda-b94c-4eb3057e2850">
       <attributes>
         <position x="-96.26735" y="0.000000" z="29.987650000000002"/>
       </attributes>
@@ -1503,19 +1503,19 @@
         <text value="Oak Grove (TX)_link_4"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1558,14 +1558,14 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="d27e9a32-3cf3-5c46-8078-48b62ca70969" attribute="f8b31eb7-12ad-4f01-8f35-1923a7d736c1"/>
-          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="3c5f2295-1f56-4bcb-abc3-c7cad985ac39"/>
-          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="ff54dbc6-36b6-4f30-8f38-257d8e379e07"/>
-          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="a16ebe31-35b5-4bd7-a1d5-d925b282aec1"/>
+          <object name="d27e9a32-3cf3-5c46-8078-48b62ca70969" attribute="aa9fcd40-b622-4e33-a602-3934933eac6d"/>
+          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="bbafdca4-c04a-4977-86f0-a68b5feda7dd"/>
+          <object name="ffdcbcca-2b3f-a661-831c-58f76ca01b5e" attribute="0905dd2f-e3a4-48a4-a692-e8323d846bff"/>
+          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="ef6b5040-00f7-4e1d-8620-ffdc733b8ee5"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="f8b31eb7-12ad-4f01-8f35-1923a7d736c1">
+    <object type="na_link_attribute" uuid="aa9fcd40-b622-4e33-a602-3934933eac6d">
       <attributes>
         <position x="-97.53545" y="0.000000" z="29.613461"/>
       </attributes>
@@ -1576,19 +1576,19 @@
         <text value="Fayette Power Project_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1599,7 +1599,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="3c5f2295-1f56-4bcb-abc3-c7cad985ac39">
+    <object type="na_link_attribute" uuid="bbafdca4-c04a-4977-86f0-a68b5feda7dd">
       <attributes>
         <position x="-95.8381" y="0.000000" z="29.8336"/>
       </attributes>
@@ -1610,19 +1610,19 @@
         <text value="Fayette Power Project_link_1"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1633,7 +1633,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="ff54dbc6-36b6-4f30-8f38-257d8e379e07">
+    <object type="na_link_attribute" uuid="0905dd2f-e3a4-48a4-a692-e8323d846bff">
       <attributes>
         <position x="-96.1906" y="0.000000" z="29.70025"/>
       </attributes>
@@ -1644,19 +1644,19 @@
         <text value="Fayette Power Project_link_2"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1667,7 +1667,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="a16ebe31-35b5-4bd7-a1d5-d925b282aec1">
+    <object type="na_link_attribute" uuid="ef6b5040-00f7-4e1d-8620-ffdc733b8ee5">
       <attributes>
         <position x="-96.39935" y="0.000000" z="29.3561"/>
       </attributes>
@@ -1678,19 +1678,19 @@
         <text value="Fayette Power Project_link_3"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1733,12 +1733,12 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="d27e9a32-3cf3-5c46-8078-48b62ca70969" attribute="ded9e409-8c4e-4060-a935-63856735b362"/>
-          <object name="cec6003a-9fcc-09b4-6396-6f0e81f833d8" attribute="b3f51982-f740-4eae-8eff-dc9892bec3bb"/>
+          <object name="d27e9a32-3cf3-5c46-8078-48b62ca70969" attribute="18c9dec7-6e0c-43e6-bc43-e47339f7dfb7"/>
+          <object name="cec6003a-9fcc-09b4-6396-6f0e81f833d8" attribute="e2f6e037-d21f-4e99-965f-82ab964e8434"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="ded9e409-8c4e-4060-a935-63856735b362">
+    <object type="na_link_attribute" uuid="18c9dec7-6e0c-43e6-bc43-e47339f7dfb7">
       <attributes>
         <position x="-97.81876" y="0.000000" z="30.1827775"/>
       </attributes>
@@ -1749,19 +1749,19 @@
         <text value="Panda Temple Power Station_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1772,7 +1772,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="b3f51982-f740-4eae-8eff-dc9892bec3bb">
+    <object type="na_link_attribute" uuid="e2f6e037-d21f-4e99-965f-82ab964e8434">
       <attributes>
         <position x="-97.03391" y="0.000000" z="30.4865165"/>
       </attributes>
@@ -1783,19 +1783,19 @@
         <text value="Panda Temple Power Station_link_1"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1838,11 +1838,11 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="094a3198-85e2-4f86-812c-800ea71fddf8"/>
+          <object name="55c31c95-4877-1a33-9921-234712449cce" attribute="6a8071c3-d16e-4d16-929f-c515225d2efc"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="094a3198-85e2-4f86-812c-800ea71fddf8">
+    <object type="na_link_attribute" uuid="6a8071c3-d16e-4d16-929f-c515225d2efc">
       <attributes>
         <position x="-97.1842" y="0.000000" z="29.052361"/>
       </attributes>
@@ -1853,19 +1853,19 @@
         <text value="J K Spruce_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1908,12 +1908,12 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="4a9b7ab1-2659-4b2a-9b5c-742084ba0c6a"/>
-          <object name="6ed1f42d-17cf-8732-6dd2-2443dc4343bf" attribute="dbe0b9a4-52da-4e25-b957-ea81f7627647"/>
+          <object name="3ca275af-5a47-90e2-0124-578c6c581877" attribute="84ace843-fe9f-4f75-9d0b-03a32211de9d"/>
+          <object name="6ed1f42d-17cf-8732-6dd2-2443dc4343bf" attribute="b2495b11-675e-4fe8-aaa0-d52a8138fbd7"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="4a9b7ab1-2659-4b2a-9b5c-742084ba0c6a">
+    <object type="na_link_attribute" uuid="84ace843-fe9f-4f75-9d0b-03a32211de9d">
       <attributes>
         <position x="-94.33045" y="0.000000" z="30.0044"/>
       </attributes>
@@ -1924,19 +1924,19 @@
         <text value="Cottonwood Energy Project_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -1947,7 +1947,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="dbe0b9a4-52da-4e25-b957-ea81f7627647">
+    <object type="na_link_attribute" uuid="b2495b11-675e-4fe8-aaa0-d52a8138fbd7">
       <attributes>
         <position x="-93.80664999999999" y="0.000000" z="30.1415"/>
       </attributes>
@@ -1958,19 +1958,19 @@
         <text value="Cottonwood Energy Project_link_1"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -2013,14 +2013,14 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="f82dc792-87b3-1390-7006-244ecf9293c6" attribute="426b86d5-0c86-4004-9ade-fba5266ca3fa"/>
-          <object name="56b963d6-5354-0b78-3c2a-8c4a449d2f23" attribute="65696569-0cef-4d14-bbad-de8ef6f6ff34"/>
-          <object name="927df553-1dfd-a7b5-5f17-e7439e6f0eef" attribute="b68faa27-911a-43ff-b20e-e2c522d4a608"/>
-          <object name="c3c7932c-881d-4bd9-9b24-063329d15a01" attribute="edf3587d-6f92-4597-b946-b9ff9f087ed5"/>
+          <object name="f82dc792-87b3-1390-7006-244ecf9293c6" attribute="6044ccb0-84ae-475d-9340-df56139dcc47"/>
+          <object name="56b963d6-5354-0b78-3c2a-8c4a449d2f23" attribute="00193c54-5d12-4910-a0dd-c5d7d37eea82"/>
+          <object name="927df553-1dfd-a7b5-5f17-e7439e6f0eef" attribute="4c0cd096-3908-45a0-a20b-1724eb38c32c"/>
+          <object name="c3c7932c-881d-4bd9-9b24-063329d15a01" attribute="872af868-083c-451c-9165-593356c3c000"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="426b86d5-0c86-4004-9ade-fba5266ca3fa">
+    <object type="na_link_attribute" uuid="6044ccb0-84ae-475d-9340-df56139dcc47">
       <attributes>
         <position x="-97.50236000000001" y="0.000000" z="32.5133325"/>
       </attributes>
@@ -2031,19 +2031,19 @@
         <text value="Handley_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -2054,7 +2054,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="65696569-0cef-4d14-bbad-de8ef6f6ff34">
+    <object type="na_link_attribute" uuid="00193c54-5d12-4910-a0dd-c5d7d37eea82">
       <attributes>
         <position x="-97.13645" y="0.000000" z="32.57925"/>
       </attributes>
@@ -2065,19 +2065,19 @@
         <text value="Handley_link_1"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -2088,7 +2088,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="b68faa27-911a-43ff-b20e-e2c522d4a608">
+    <object type="na_link_attribute" uuid="4c0cd096-3908-45a0-a20b-1724eb38c32c">
       <attributes>
         <position x="-96.8554" y="0.000000" z="32.7423"/>
       </attributes>
@@ -2099,19 +2099,19 @@
         <text value="Handley_link_2"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -2122,7 +2122,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="edf3587d-6f92-4597-b946-b9ff9f087ed5">
+    <object type="na_link_attribute" uuid="872af868-083c-451c-9165-593356c3c000">
       <attributes>
         <position x="-96.13045" y="0.000000" z="32.91"/>
       </attributes>
@@ -2133,19 +2133,19 @@
         <text value="Handley_link_3"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -2188,14 +2188,14 @@
       </attributes>
       <attributes name="Node_Link">
         <links>
-          <object name="98e9ad32-4cbe-6292-25a6-d33fd188429f" attribute="56c94420-1804-44a6-adb9-302551869553"/>
-          <object name="f82dc792-87b3-1390-7006-244ecf9293c6" attribute="fd1b7d65-9f87-4153-b2c0-56a08d53d0d7"/>
-          <object name="56b963d6-5354-0b78-3c2a-8c4a449d2f23" attribute="defcce72-7fe3-42ac-a6db-72912880b7d7"/>
-          <object name="c3c7932c-881d-4bd9-9b24-063329d15a01" attribute="9d4bab34-ac5f-4274-9bc7-0a597fd4bc02"/>
+          <object name="98e9ad32-4cbe-6292-25a6-d33fd188429f" attribute="e506fa63-c3c3-44d4-a09d-2848304bde7e"/>
+          <object name="f82dc792-87b3-1390-7006-244ecf9293c6" attribute="bf701707-0d60-41d3-89d1-b768efa74daf"/>
+          <object name="56b963d6-5354-0b78-3c2a-8c4a449d2f23" attribute="9b14bde5-28f9-42a8-82f2-2f704762c39e"/>
+          <object name="c3c7932c-881d-4bd9-9b24-063329d15a01" attribute="186fc51e-b9a1-4731-9901-8d1735ce61d4"/>
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="56c94420-1804-44a6-adb9-302551869553">
+    <object type="na_link_attribute" uuid="e506fa63-c3c3-44d4-a09d-2848304bde7e">
       <attributes>
         <position x="-97.5883" y="0.000000" z="32.914649999999995"/>
       </attributes>
@@ -2206,19 +2206,19 @@
         <text value="Jack County_link_0"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -2229,7 +2229,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="fd1b7d65-9f87-4153-b2c0-56a08d53d0d7">
+    <object type="na_link_attribute" uuid="bf701707-0d60-41d3-89d1-b768efa74daf">
       <attributes>
         <position x="-97.87146000000001" y="0.000000" z="32.699682499999994"/>
       </attributes>
@@ -2240,19 +2240,19 @@
         <text value="Jack County_link_1"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -2263,7 +2263,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="defcce72-7fe3-42ac-a6db-72912880b7d7">
+    <object type="na_link_attribute" uuid="9b14bde5-28f9-42a8-82f2-2f704762c39e">
       <attributes>
         <position x="-97.50555" y="0.000000" z="32.7656"/>
       </attributes>
@@ -2274,19 +2274,19 @@
         <text value="Jack County_link_2"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>
@@ -2297,7 +2297,7 @@
         </links>
       </attributes>
     </object>
-    <object type="na_link_attribute" uuid="9d4bab34-ac5f-4274-9bc7-0a597fd4bc02">
+    <object type="na_link_attribute" uuid="186fc51e-b9a1-4731-9901-8d1735ce61d4">
       <attributes>
         <position x="-96.49955" y="0.000000" z="33.09635"/>
       </attributes>
@@ -2308,19 +2308,19 @@
         <text value="Jack County_link_3"/>
       </attributes>
       <attributes name="NA_Node_Threat">
-        <scalar value="1.000000"/>
+        <scalar value="0.380000"/>
       </attributes>
       <attributes name="NA_Node_Vulnerability">
         <scalar value="1.000000"/>
       </attributes>
       <attributes name="NA_Node_Consequence">
-        <scalar value="1.000000"/>
+        <scalar value="169.75"/>
       </attributes>
       <attributes name="NA_Node_Prevention_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="870.51"/>
       </attributes>
       <attributes name="NA_Node_Response_Cost">
-        <scalar value="1.000000"/>
+        <scalar value="10.000000"/>
       </attributes>
       <attributes name="NA_Node_Description">
         <text value=""/>

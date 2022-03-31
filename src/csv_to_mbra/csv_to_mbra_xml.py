@@ -79,9 +79,9 @@ def create_node(archive_element, layer_uuid,
             midpoint_lat = (lat + dest.latitude.values.item(0))/2
             link_id = str(uuid4())
             create_node(archive_element, layer_uuid,
-                        midpoint_long, midpoint_lat, name + "_link_" + str(i), threat="1.000000",
-                        vuln="1.000000", consequence="1.000000", prevention_cost="1.000000",
-                        response_cost="1.000000",
+                        midpoint_long, midpoint_lat, name + "_link_" + str(i), threat="0.380000",
+                        vuln="1.000000", consequence="169.75", prevention_cost="870.51",
+                        response_cost="10.000000",
                         description="",
                         node_type="na_link_attribute", link_node_id=link_id,
                         dest_ids=None)
